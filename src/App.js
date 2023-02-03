@@ -11,7 +11,7 @@ function App() {
       <Controller>
         <Scene duration="200%" triggerHook="onLeave" pin>
           {progress => (
-            <div style={{ paddingTop:"50px", position: "relative" }}>
+            <div style={{ paddingTop:"500px", position: "relative" }}>
               <Sequence ref={ref} progress={progress} />
             </div>
           )}
