@@ -13,7 +13,7 @@ function App() {
           {progress => (
             <div style={{ paddingTop:"50px", position: "relative" }}>
               <Sequence ref={ref} progress={progress} />
-              <h1>this data from dev branch</h1>
+              
             </div>
           )}
         </Scene>
