@@ -24,6 +24,8 @@ export const Skeleton = ({count,width,wrapper: Wrapper,height,circle,margin}) =>
         </span>
       );
     }
+    <h1>change this color </h1>
+
   
     return (
       <span>
@@ -36,6 +38,7 @@ export const Skeleton = ({count,width,wrapper: Wrapper,height,circle,margin}) =>
             ))
           : elements}
       </span>
+
     );
   };
   
