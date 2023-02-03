@@ -11,6 +11,7 @@ const ImageSequence = forwardRef(({ progress }, ref) => {
       if (newImages[index][1] === "loading") {
         return <Skeleton width="100%" height="100%" />;
       } else {
+        <h1>this change is carozal</h1>
         return newImages.map((item, i) => (
           <span
             ref={ref}
