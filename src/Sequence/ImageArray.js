@@ -8,7 +8,6 @@ const AirpodsArray = () => {
     const [AA3, AA3S] = useImage(AirPods[3]);
     const [AA4, AA4S] = useImage(AirPods[4]);
 
-<h1>this change is carozal</h1>
     const newImages = Array.of(
         [AA0, AA0S],
         [AA1, AA1S],
